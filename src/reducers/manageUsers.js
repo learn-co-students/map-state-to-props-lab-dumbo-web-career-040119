@@ -6,7 +6,7 @@ export default function manageUsers(state = {
       console.log('adding ', action.user);
       return {
         ...state,
-        users: [...state.users, action.user]
+        users: [...state.users, action.user],
       }
 
     default:
